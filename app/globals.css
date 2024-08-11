@@ -26,8 +26,20 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+body {
+  overflow-x: hidden;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.bg-primary-red {
+  background-color: hsl(0, 99%, 41%);
+}
+
+.bg-primary-blue {
+  background-color: hsl(229, 74%, 40%);
 }
