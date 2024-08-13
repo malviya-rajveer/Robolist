@@ -1,13 +1,14 @@
 
-import { SparklesPreview } from "@/components/backgroud/sparkle";
-import { SpotlightPreview } from "@/components/backgroud/spotlite";
+
 import  Container  from "../components/global/container";
 
 import { getServerSession } from "next-auth";
 import { redirect } from 'next/navigation'
 import Wrapper from "@/components/global/wrapper";
-import { features, perks } from "@/components/backgroud";
+import { features, perks } from "@/components/objects";
 import Footer from "@/components/footer";
+import { SpotlightPreview } from "@/components/objects/spotlite";
+import { SparklesPreview } from "@/components/objects/sparkle";
 
 export default async function Page() {
   const session = await getServerSession();
@@ -21,7 +22,7 @@ return <section>
         <SparklesPreview></SparklesPreview>
     </Container>
   </div>
-  <div className="hidden lg:block absolute top-[30rem] -right-[16%] bg-primary-red w-72 h-72 rounded-full z-10 blur-[14rem]"></div>
+  <div className="hidden lg:block absolute top-[30rem] -right-[16%] bg-primary-pink w-72 h-72 rounded-full z-10 blur-[14rem]"></div>
   <div className="hidden lg:block absolute bottom-0 -left-1/4 bg-primary-blue w-96 h-72 rounded-full z-100 blur-[14rem]"></div>
   <div className="hidden lg:block absolute -bottom-[40rem] -left-1/4 bg-primary-blue w-96 h-40 rounded-full z-100 blur-[14rem]"></div>
   <Container>

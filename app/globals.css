@@ -36,8 +36,12 @@ body {
   }
 }
 
+.bg-primary-pink {
+  background-color: hsl(327, 88%, 45%);
+}
+
 .bg-primary-red {
-  background-color: hsl(0, 99%, 41%);
+  background-color: hsl(357, 100%, 46%);
 }
 
 .bg-primary-blue {
