@@ -2,6 +2,8 @@ import React from "react";
 import { cn } from "@/lib/utils";
 import { Spotlight } from "../ui/spotlight";
 import Container from "../global/container";
+import {  } from "../ui/spotlight";
+import Image from "next/image";
 
 export function SpotlightPreview() {
   return (

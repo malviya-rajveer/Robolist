@@ -11,7 +11,7 @@ import { SpotlightPreview } from "@/components/objects/spotlite";
 import { SparklesPreview } from "@/components/objects/sparkle";
 
 export default async function Page() {
-  const session = await getServerSession();
+
 return <section>
   <Wrapper>
   <div>
@@ -32,7 +32,7 @@ return <section>
     </div>
 
   <div className="mt-5 p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0">
-        <h1 className="text-4xl md:text-5xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-500">
+        <h1 className="text-4xl md:text-5xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-500 to-neutral-50">
         Everything you need to <a className="bg-gradient-to-r from-red-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">build</a> your next robot
         </h1>
         <p className="mt-4 pt-2 md:text-2xl font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">

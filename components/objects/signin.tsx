@@ -1,10 +1,9 @@
 "use client"
 import { useState } from "react"
-import { LabelledInput } from "./textinput"
 import { FcGoogle } from "react-icons/fc"
 import { signIn } from "next-auth/react"
-import { CreateUser } from "@/lib/actions/CreateUser"
 import { useRouter } from "next/navigation"
+import { LabelledInput } from "./textinput"
 
 export function Signin(){
     const router = useRouter()
@@ -16,7 +15,7 @@ return <div>
                 <LabelledInput label="email" placeholder="123@gmail.com" onChange={(value)=>{
                     setEmail(value)
                 }} />
-                <LabelledInput label="password" placeholder="ad13123@" onChange={(value)=>{
+                <LabelledInput type="password" label="password" placeholder="ad1@sfw123" onChange={(value)=>{
                     setPassword(value)
                 }} />
             </div>

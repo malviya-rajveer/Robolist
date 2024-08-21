@@ -1,8 +1,7 @@
 
+// import { BottomWarning } from "@/components/objects/bottomWarning";
 import { BottomWarning } from "@/components/objects/bottomWarning";
 import { Signin } from "@/components/objects/signin";
-import { Signup } from "@/components/objects/signup";
-
 
 
 export default function signup() {

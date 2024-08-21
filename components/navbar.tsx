@@ -1,7 +1,7 @@
 
 import Link from "next/link";
 import Container from "./global/container";
-import { Button } from "./objects/button";
+import { AppBar } from "./objects/Appbar";
 
 const Navbar = async () => {
 
@@ -24,10 +24,7 @@ const Navbar = async () => {
                             <Link href="#" className="hover:text-foreground/80 text-sm">Blog</Link>
                         </ul>
                     </nav>
-                <div className="flex items-center gap-4 pl-36 justify-end ">
-                    <Button href ={"/signup"}>signup</Button>
-                    <Button href ={"/"}>signout</Button>
-                </div>
+                <AppBar></AppBar>
                 </div>
             </Container>
         </header>

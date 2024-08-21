@@ -8,7 +8,7 @@ export function SparklesPreview() {
   }, []);
   return (
     <div className="h-[15rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-      <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center bg-gradient-to-b  from-neutral-100 from-30% to-neutral-500 inline-block text-transparent bg-clip-text relative z-20">
+      <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center bg-gradient-to-b  from-neutral-500  to-neutral-100 inline-block text-transparent bg-clip-text relative z-20">
         Robolist
       </h1>
       <div className="w-[40rem] h-40 relative">
