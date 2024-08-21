@@ -1,8 +1,9 @@
 
 import CredentialsProvider from "next-auth/providers/credentials"
 import bcrypt from "bcrypt";
-import prisma  from "@/db";
 import GoogleProvider from "next-auth/providers/google";
+import prisma from '../db';
+import { PrismaAdapter } from '@next-auth/prisma-adapter';
 
 export const authOptions = {
     providers: [
@@ -42,6 +43,7 @@ export const authOptions = {
             clientSecret: process.env.GOOGLE_CLIENT_SECRET || ""
           })
     ],
+    adapter: PrismaAdapter(prisma),
     secret: process.env.NEXTAUTH_SECRET,
     callbacks: {
         // TODO: can u fix the type here? Using any is bad
