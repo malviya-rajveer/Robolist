@@ -7,7 +7,7 @@ export function SparklesPreview() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="h-[15rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+    <div className=" h-[32rem]   md:h-[15rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
       <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center bg-gradient-to-b  from-neutral-500  to-neutral-100 inline-block text-transparent bg-clip-text relative z-20">
         Robolist
       </h1>

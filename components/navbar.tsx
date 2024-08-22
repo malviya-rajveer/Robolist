@@ -8,8 +8,8 @@ const Navbar = async () => {
     return (
         <header className="sticky top-0 z-50 border-b border-slate-600 transition-colors border-fd-foreground/10 bg-fd-background/60 backdrop-blur-md h-14">
             <Container reverse>
-                <div className="flex items-center h-full mx-auto md:max-w-screen-2xl gap-[55rem] sm:gap-[7rem] ">
-                    <div className="flex items-start pl-16">
+                <div className="flex items-center h-full mx-auto md:max-w-screen-2xl lg:gap-[55rem] gap-[7rem] ">
+                    <div className="flex items-start pl-4 lg:pl-8">
                         <Link href="/" className="flex items-center gap-2">
                             <span className="text-lg font-medium">
                                 Robolist

@@ -27,7 +27,7 @@ return <section>
   <div className="hidden lg:block absolute -bottom-[40rem] -left-1/4 bg-primary-blue w-96 h-40 rounded-full z-100 blur-[14rem]"></div>
   <Container>
 
-    <div className="mt-20 justify-center font-semibold text-center w-full lg:text-4xl bg-gradient-to-b  from-neutral-50 to-neutral-400 inline-block text-transparent bg-clip-text">
+    <div className="md:mt-20 justify-center font-semibold text-center w-full lg:text-4xl bg-gradient-to-b  from-neutral-50 to-neutral-400 inline-block text-transparent bg-clip-text">
       Where <a className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">Innovation</a>  Takes Shape: Crafting Robots
     </div>
 
