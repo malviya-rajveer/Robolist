@@ -1,3 +1,15 @@
+
+# Robolist
+Robolist is a web application designed to [brief description of the app's purpose]. Built using Next.js, it leverages TypeScript, Prisma for database management, and NextAuth for user authentication.
+
+## Features
+- User Authentication: Secure login and signup   using NextAuth.
+
+- Database Management: Efficient data handling with Prisma.
+- Responsive UI: Tailwind CSS for a modern and responsive design.
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
